@@ -1,0 +1,450 @@
+[
+    {
+        "name": "Chittagong",
+        "image": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/blog_e4v9wwcJyMp7IsKETHh15wqtY4eohvv.jpg",
+        "about": "Chittagong Division, officially known as Chattogram Division, is geographically the largest of the eight administrative divisions of Bangladesh. It covers the south-easternmost areas of the country, with a total area of 33,909.00 km2 (13,092.34 sq mi)[3] and a population at the 2011 census of 28,423,019.^[6] The administrative division includes mainland Chittagong District, neighbouring districts and the Chittagong Hill Tracts.Chittagong Division is home to Cox's Bazar, the longest natural sea beach in the world; as well as St. Martin's Island, Bangladesh's sole coral reef..\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Bandarban",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Bandarban (Bengali: বান্দরবান, Chakma: 𑄝𑄚𑄴𑄘𑄧𑄢𑄴𑄝𑄚𑄴, Burmese: ဘန်ဒါဘန်) is a district in South-Eastern Bangladesh, and a part of the Chittagong Division.[4] It is one of the three hill districts of Bangladesh and a part of the Chittagong Hill Tracts, the others being Rangamati District and Khagrachhari District. Bandarban district (4,479 km2) is not only the most remote district of the country, but also the least populous (population 292,900).[5] There is an army contingent at Bandarban Cantonment.Bandarban town is the hometown of the Bohmong Chief (Raja) U Cho Prue (Marma: ရာဇာ ဦးစောဖြူ မရမာ) who is the head of the Bohmong Circle. Of the other hill districts, Rangamati is the Chakma Circle, headed by Raja Devasish Roy and Khagrachari is the Mong Circle, headed by Raja Sachingprue Marma (ရာဇာ သာစိန်ဖြူ မရမာ). Bandarban is regarded as one of the most attractive travel destinations in Bangladesh. It also is the administrative headquarters of Bandarban district, which has turned into one of the most exotic tourist attractions in Bangladesh..\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Brahmanbaria",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Brahmanbaria (Bengali: ব্রাহ্মণবাড়িয়া, romanized: Brahmôṇbaṛiya) is a district in eastern Bangladesh located in the Chittagong Division. Geographically, it is mostly farmland and is topographically part of the Gangetic Plain. It is bounded by the districts of Kishoreganj and Habiganj to the north, Narsingdi District and Narayanganj to the west, Comilla to the south, and the Indian state of Tripura to its east. It was a part of Comilla until 15 February 1984.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Chandpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Chandpur (চাঁদপুর) is a district located in Bangladesh's Chittagong Division.[2] It was a part of Comilla until 15 February 1984.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Chittagong",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Chittagong District, renamed the Chattogram District,[2] is a district located in the south-eastern region of Bangladesh. It is a part of the Chittagong Division. The port city of Chittagong, which is the second largest city in Bangladesh, is located within this district.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Comilla",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Comilla District, officially known as Cumilla District,[6] is a district of Bangladesh located about 100 kilometres south east of Dhaka. Comilla is bordered by Brahmanbaria and Narayanganj districts to the north, Noakhali and Feni districts to the south, Tripura of India to the east and Munshiganj and Chandpur districts to the west. Comilla district is located in the southeastern part of Bangladesh.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Cox's Bazar",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Cox's Bazar (Bengali: কক্সবাজার জেলা, Cox's Bazar Jela also Cox's Bazar Zila) is a district in the Chittagong Division of Bangladesh.[2] It is named after Cox's Bazar town. It is located 150 kilometres (93 mi) south of Chittagong. Cox's Bazar is also known by the name Panowa ('yellow flower'). Another old name was Palongkee. The modern Cox's Bazar derives its name from Captain Hiram Cox (died 1799), an army officer who served in British India. It is one of the fishing ports of Bangladesh. At Cox's Bazar is one of the world's longest natural sea beaches (120 kilometres (75 mi) long including mud flats)\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Feni",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Feni is a district located in southeastern Bangladesh. It was a part of the Greater Noakhali, Comilla, Chittagong and Tripura. As of 2011, the district's estimated population stood at 1,437,371, making it the ninth-most populous district in Chittagong Division. . The administrative hub of the district is in Feni City, which also serves as the headquarters of Feni Sadar Upazila in the central section of the district. The original name of the district was Shamshernagar, which served as a mahakuma under the district of Noakhali (greater part), Comilla (few part) and Chittagong District (at rest) until 6 December 1984.[2] It is the 64th Number Districts of Bangladesh. The district consists of six sub-districts: Sonagazi, Fulgazi, Parshuram, Daganbhuiyan, Chhagalnaiya and Feni Sadar.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Khagrachhari",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Khagrachari (Bengali: খাগড়াছড়ি) (Chakma: 𑄦𑄉𑄢𑄍𑄪𑄢𑄨) ( Burmese: ခဂြစာရိ) is a district in the Chittagong Division of Southeastern Bangladesh. It is a part of the Chittagong Hill Tracts region..\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Lakshmipur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Lakshmipur (Bengali: লক্ষ্মীপুর, romanized: Lokkhipur, also spelt Laxmipur, with an area of 1455.96 km2, is a district of Bangladesh. It is bordered by Chandpur to the north, Bhola and Noakhali districts to the south, Noakhali to the east, and Barisal and Bhola districts to the west. Lakshmipur was the part of Noakhali untill 15February1984.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Noakhali",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Noakhali (Bengali: নোয়াখালী, lit. 'New canal'), historically known as Bhulua (Bengali: ভুলুয়া), is a district in southeastern Bangladesh, located in the Chittagong Division.[3][4] It was established as district in 1821, and officially named Noakhali in 1868. Its headquarters lie in the town of Maijdee, making Noakhali the only district of Bangladesh that isn't named after its town name.\r\n",
+                "division": "Chittagong"
+            },
+            {
+                "name": "Rangamati",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Rangamati Hill District (Bengali: রাঙামাটি) ( Burmese: ရင်္ဂမတိ), is a district in south-eastern Bangladesh. It is a part of the Chittagong Division[4] and the town of Rangamati serves as the headquarters of the district. By area, Rangamati is the largest district of the country.\r\n",
+                "division": "Chittagong"
+            }
+        ]
+    },
+    {
+        "name": "Dhaka",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "Dhaka Division (Bengali: ঢাকা বিভাগ, Ḑhaka Bibhag) is an administrative division within Bangladesh.[3] Dhaka serves as the capital city of the Dhaka Division, the Dhaka District and Bangladesh. It is also the largest city of the country. It comes among the 10 most populous cities of the world. The division covers an area of 20,508.8 km2 with a population of 21,741,005, as per the 2021 census.Dhaka Division borders every other division in the country except Rangpur Division. It is bounded by Mymensingh Division to the north, Barisal Division to the south, Chittagong Division to the east and south-east, Sylhet Division to the north-east, and Rajshahi Division to the west and Khulna Divisions to the south-west.\r\n",
+        "division": "Bangladesh",
+        "districts": [
+            {
+                "name": "Dhaka",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Dhaka District (Bengali: ঢাকা জেলা, Dhaka jela) is a district in central Bangladesh,[5] and is the densest district in the nation. It is a part of the Dhaka Division. Dhaka, the capital of Bangladesh, and rests on the eastern banks of the Buriganga River which flows from the Turag to the southern part of the district. While Dhaka (city corporation) occupies only about a fifth of the area of Dhaka district, it is the economic, political and cultural centre of the district and the country as a whole. Dhaka District consists with Dhaka, Keraniganj , Nababganj, Dohar, Savar and Dhamrai upazila. Dhaka District is an administrative entity, and like many other cities it does not cover the modern conurbation which is Greater Dhaka, which has spilled into neighbouring districts, nor does the conurbation cover the whole district, as there are rural areas within the district.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Faridpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Faridpur (Bengali: ফরিদপুর জেলা) is a district in south-central Bangladesh. It is a part of the Dhaka Division.[4] It is bounded by the Padma River to its northeast. The district was named after the great sufi saint Farīd-ud-Dīn Masʿūd in British era. A separate district was created by severing Dhaka district in 1786 and was called Dacca Jelalpur. A municipality was established in 1869. Historically, the town was known as Fatehabad. It was also called Haveli Mahal Fatehabad.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Gazipur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Gazipur (Bengali: গাজীপুর) is a district in central Bangladesh, part of the Dhaka Division. It has an area of 1741.53 km2.[3] It is the home district of Tajuddin Ahmad, the first Prime Minister of Bangladesh and has been a prominent centre of battles and movements throughout history. Gazipur is home to the Bishwa Ijtema, the second-largest annual Muslim gathering in the world with over 5 million attendees.[4] There are many facilities available in this district as it contains numerous universities, colleges, the Bangabandhu Sheikh Mujib Safari Park, Bhawal National Park as well as the country's only business park - the Bangabandhu Hi-Tech City.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Gopalganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Gopalganj (Bengali: গোপালগঞ্জ জেলা) is a district (zilla in Bengali) in the Dhaka Division of Bangladesh.[2] The district has about 1,172,415 civilians and its surface area is 1,490 km2. The main city of the district is also called Gopalganj. It stands on the bank of the Madhumati river and located at 23°00'47.67' N 89°49'21.41'. It is bounded by Faridpur district on the North, Pirojpur and Bagerhat district on the South, Madaripur & Barisal district on the East and Narail district on the West.Gopalganj is subdivided into five sub-districts (upazila/thana).The Office of the Deputy Commissioner, Gopalganj has developed a web portal of the district as www.gopalganj.gov.bd under the 'Access to Information' program of the Prime Minister's Office. This has been done under the Digital Bangladesh implementation concept of the incumbent government.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Kishoreganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Kishoreganj (Bengali: কিশোরগঞ্জ) is a district in Dhaka Division, Bangladesh. Earlier it was a Mohkuma (মহকুমা) under the Mymensingh district. Greater Mymensingh, the largest district on the Indian subcontinent, was separated by 6 Mohkuma as Mymensingh (Sadar), Kishoreganj, Tangail, Sherpur, Jamalpur, and Netrokona (presently all Mohkuma upgraded as district status). Kishoreganj consists of eight municipalities, 13 upazilas, 105 union parishads, 39 wards, 145 mahallas, 946 mouzas and 1775 villages.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Madaripur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Madaripur (Bengali: মাদারীপুর), being a part of the Dhaka Division, is a district in central Bangladesh.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Manikganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Manikganj (Bengali: মানিকগঞ্জ [mɑnɪkˈɡondʒ]) is a district in central Bangladesh. It is a part of the Tangail Sub Division.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Munshiganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Munshiganj (Bengali: মুন্সীগঞ্জ), also historically known as Bikrampur, is a district[3] in central Bangladesh. It is a part of the Dhaka Division and borders Dhaka District.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Narayanganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Narayanganj District (Bengali: নারায়ণগঞ্জ, romanized: Narayoṇgonj) is a district in central Bangladesh which is a part of the Dhaka Division.[1] It is home to the ancient city of Sonargaon and is one of the oldest industrial districts in the country. The district lies on the banks of the Shitalakshya River and the Meghna River. It is an industrial hub and plays an important part in the country's jute trade, plant processing and sector. It is nicknamed the 'Dundee of Bangladesh' due to the presence of many jute mills.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Narsingdi",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Narsingdi District (Bengali: নরসিংদী জেলা) is a district in central Bangladesh. It is located 50 km north-east of Dhaka, capital city of Bangladesh. It is a part of the Dhaka Division.[2] The district is famous for its textile craft industry. Narsingdi is bordered by Kishoreganj in the north and north-east, Brahmanbaria in the east and south-east, Comilla in the south and south-east, Narayanganj in the south and south-west and Gazipur in the west.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Rajbari",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Rajbari (Bengali: রাজবাড়ী) is a district in central Bangladesh, located in the Dhaka Division.[1][3] It is a part of the Greater Faridpur subregion of Bengal due to the historical, linguistic and cultural identities of its inhabitants.\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Shariatpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Shariatpur (Bengali: শরিয়তপুর জেলা, Shariatpur Jela also Shariatpur Zila) is a district in the Dhaka Division of central Bangladesh. It is bounded by Munshiganj district on the north, Barisal district on the south, Chandpur district on the east, Madaripur district on the west. Water bodies Main rivers: Padma, Meghna, Palong (Kirtinasha) and Jayanti. Of the six upazilas of the district Bhedarganj Upazila is the largest (311.24 square kilometres (120.17 sq mi)) and Damudya Upazila is the smallest (91.76 square kilometres (35.43 sq mi)).\r\n",
+                "division": "Dhaka"
+            },
+            {
+                "name": "Tangail",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Tangail (Bengali: টাঙ্গাইল জেলা) formerly an Upzilla of Greater Mymensingh district is a district (zila) in the central region of Bangladesh. It is the largest district of Dhaka division by area and second largest by population (after Dhaka district). The population of Tangail zila is about 3.8 million and its area is 3,414.28 square kilometres (1,318.26 sq mi).[3] The main city of the district is Tangail. It is surrounded by Jamalpur District on the north, the Dhaka and Manikganj Districts on the south, the Mymensingh and Gazipur on the east, and the Sirajganj on the west.\r\n",
+                "division": "Dhaka"
+            }
+        ]
+    },
+    {
+        "name": "Barisal",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "Barishal Division is one of the eight administrative divisions of Bangladesh. Located in the south-central part of the country, it has an area of 13,644.85 km2 (5,268.31 sq mi), and a population of 8,325,666 at the 2011 Census. It is the least populous Division within the entirety of Bangladesh. It is bounded by Dhaka Division on the north, the Bay of Bengal on the south, Chittagong Division on the east and Khulna Division on the west. The administrative capital, Barisal city, lies in the Padma River delta on an offshoot of the Arial Khan River. Barisal division is criss-crossed by numerous rivers that earned it the nickname Dhan-Nodi-Khal, Ei tin-e Borishal (rice, river and canal built Barishal).\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Barguna",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Barguna (Bengali: বরগুনা Borguna) is a district in the division of Barisal, Bangladesh.[4] It is situated in the southern part of Bangladesh. Barguna subdivision was established in 1969 and promoted to district on 28 February 1984.\r\n",
+                "division": "Barisal"
+            },
+            {
+                "name": "Barisal",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Barisal District, officially spelled Barishal District from April 2018,[3] is a district in south-central Bangladesh, formerly called Bakerganj district, established in 1797.[4] Its headquarters are in the city of Barisal, which is also the headquarters of Barisal Division.\r\n",
+                "division": "Barisal"
+            },
+            {
+                "name": "Bhola",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Bhola District (Bengali: ভোলা) is an administrative district (zila) in south-central Bangladesh, which includes Bhola Island, the largest island of Bangladesh. It is located in the Barisal Division and has an area of 3737.21 km2.[2] It is bounded by Lakshmipur and Barisal District to the north, the Bay of Bengal to the south, by Lakshmipur and Noakhali districts, the (lower) Meghna river and Shahbazpur Channel to the east, and by Patuakhali District and the Tetulia river to the west.[3] About 400 million cubic feet (11 million cubic metres) natural gas has been found at Kachia in Bhola which is being used to run a power station.\r\n",
+                "division": "Barisal"
+            },
+            {
+                "name": "Jhalokati",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Jhalokati, also spelled Jhalokathi, (Bengali: ঝালকাঠি) is a district in southern Bangladesh.[2] It is located in the Barisal Division and covers an area of 758.06 km2 It is bounded by Barisal district to the north and east, Barguna district and the Bishkhali river in the south, Lohagara Upazila and Pirojpur district to the west. Annual average temperatures: maximum 33.3 °C, minimum 12.1 °C; annual rainfall 2506 mm. The main rivers in this district are Bishkhali, Dhanshiri, Gabkhan, Sugandha, Jangalia, Bamanda and Bajitpur. 'পেয়ারা আর শীতলপাটি, এই নিয়ে ঝালকাঠি' '(Jhalokathi, The land of tasty Guava and Shitolpati)' is the official moto of the district\r\n",
+                "division": "Barisal"
+            },
+            {
+                "name": "Patuakhali",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Patuakhali (Bengali: পটুয়াখালী, romanized: Potuakhali) is a district in South-central Bangladesh in the Barisal Division. This district is the main entrance for the beach of Kuakata.\r\n",
+                "division": "Barisal"
+            },
+            {
+                "name": "Pirojpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Pirojpur (Bengali: পিরোজপুর) is a district (zilla) in southern-western Bangladesh. It is a part of Barisal Division\r\n",
+                "division": "Barisal"
+            }
+        ]
+    },
+    {
+        "name": "Khulna",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "The Khulna Division (Bengali: খুলনা বিভাগ) is the second largest of the eight divisions of Bangladesh. It has an area of 22,285 km2 (8,604 sq mi) and a population of 15,563,000 at the 2011 Bangladesh census (preliminary returns). Its headquarters and largest city is Khulna city in Khulna District.\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Bagerhat",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Bagerhat District (Bengali: বাগেরহাট, pron: bageɾɦaʈ) is a district in south-western Bangladesh. It is a part of the Khulna Division.\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Chuadanga",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Chuadanga (Bengali: চুয়াডাঙ্গা, romanized: tʃuaɖaŋga), is a district of the western Khulna Division of Bangladesh. It is bordered by the Indian state of West Bengal to the west, Meherpur District to the northwest, Jessore District to the south, Jhenaidah District to the east, and Kushtia District to the north. Before partition Chuadanga was one of the five subdivisions under Nadia district.[2] This was the first capital of Bangladesh (10 April 1971).\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Jessore",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Jessore District (Bengali: যশোর, pronounced Jaw-shore, Anglicised: Jessore), officially spelled Jashore District from April 2018,[2][3][4] is a district in the southwestern region of Bangladesh. It is bordered by India to the west, Khulna District and Satkhira District to the south, Khulna and Narail to the east, and Jhenaidah District and Magura District to the north. Jessore is the capital of the district.Jessore district was established in 1781. It consists of 8 municipalities, 8 upazilas, 92 unions, 1329 mouzas, 1477 villages and 120 mahallas. The upazilas are: Abhaynagar Upazila, Bagherpara Upazila, Chaugachha Upazila, Jessore Sadar Upazila, Jhikargachha Upazila, Keshabpur Upazila, Manirampur Upazila, and Sharsha Upazila.The district produces a variety of crops year-round. Date sugar, called patali, is made from the sap of locally grown date trees. It is cooked, thickened and crystallised using a traditional method. Patali is mainly produced in Khajura, but many date trees are cultivated in the Keshabpur Upazila and Manirampur Upazila areas.\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Jhenaidah",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Jhenaidah District (Bengali: ঝিনাইদহ) is a district in southwestern Bangladesh. It is a part of the Khulna Division. It has an area of 1,964.77 km2 (758.60 sq mi).[2] It is bordered by Kushtia District to the north, Jessore District and West Bengal, India to the south, Rajbari District and Magura District to the east, and Chuadanga District and West Bengal, India to the west. The largest city and headquarter of this district is Jhenaidah.[3] At the beginning of the British rule Jhenaidah was a police outpost and was turned into a thana in 1793. The Jhenaidah Sub division was established in 1862 and was turned into a district in 1984\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Khulna",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Khulna District (Bengali: খুলনা জেলা, Khulna Jela also Khulna Zila) is a district of Bangladesh. It is located in the Khulna Division. It is bordered on the north by the Jessore District and the Narail District, on the south by the Bay of Bengal, on the east by the Bagerhat District, and on the west by the Satkhira District.[2] It was the very first sub-division of United Bengal Province established in 1842 under Jessore district. On 1st June 1882 by notification of the official gazette published from Kolkata, Khulna and Bagerhat sub-division of Jessore district and Satkhira sub-division of 24 Pargana district formed the new Zila 'Khulna'.\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Kushtia",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Kushtia district (Bengali: কুষ্টিয়া জেলা, pronunciation: kuʃʈia) is a district in the Khulna administrative division of western Bangladesh. Kushtia is the second largest municipality in Bangladesh and the eleventh largest city in the country. Kushtia has existed as a separate district since the partition of India.[4] Prior to that, Kushtia was a part of Nadia district. Kushtia is the birthplace of many historical figures including Mir Mosharraf Hossain (1847–1912),[5] Bagha Jatin (1879–1915)[6] and Lalon (1774–1890).[7] Nobel laureate poet Rabindranath Tagore lived his early life at Shelaidaha.\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Magura",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Magura (Bengali: মাগুরা) is a district in south-western Bangladesh, situated 176 kilometers from Dhaka. It is a part of Khulna Division.[3] The main mode of transportation is by bus, and no train transport is available.\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Meherpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Meherpur (Bengali: মেহেরপুর, pron: meɦeɾpuɾ) is the northwestern district of Khulna Division in southwestern Bangladesh. It is bordered by the Indian state of West Bengal to the west, and by the Bangladeshi districts of Kushtia and Chuadanga to the east.[2] Pre-independece Meherpur was a subdivision of Nadia district.[3] The district has an area of 716.08 square kilometres (276.48 sq mi).\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Narail",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Narail (Bengali: নড়াইল, pron: nɔɽail) is a district in south-western Bangladesh. It is a part of Khulna Division.\r\n",
+                "division": "Khulna"
+            },
+            {
+                "name": "Satkhira",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Satkhira (Bengali: সাতক্ষীরা জেলা, pron: Satkhira) is a district in southwestern Bangladesh and is part of Khulna Division. It lies along the border with West Bengal, India. It is on the bank of the Arpangachhia River. The largest city and headquarter of this district is Satkhira.\r\n",
+                "division": "Khulna"
+            }
+        ]
+    },
+    {
+        "name": "Mymensingh",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "Mymensingh Division (Bengali: ময়মনসিংহ বিভাগ) is one of the eight administrative divisions of Bangladesh. It has an area of 10,485 square kilometres (4,048 sq mi) and a population of 11,370,000 as of the 2011 census. It was created in 2015 from districts previously composing the northern part of Dhaka Division. Its headquarters are in Mymensingh city in Mymensingh District.\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Jamalpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Jamalpur (Bengali: জামালপুর জেলা, Jamalpur Jela also Jamalpur Zila) is a district in Bangladesh,[2] part of the Mymensingh Division. It was established in 1978.\r\n",
+                "division": "Mymensingh"
+            },
+            {
+                "name": "Mymensingh",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Mymensingh (Bengali: ময়মনসিংহ) is a district in Mymensingh Division, Bangladesh, and is bordered on the north by Meghalaya, a state of India and the Garo Hills, on the south by Gazipur District, on the east by the districts of Netrokona and Kishoreganj, and on the west by the districts of Sherpur, Jamalpur and Tangail.[2] Mymensingh town is the district headquarters.\r\n",
+                "division": "Mymensingh"
+            },
+            {
+                "name": "Netrokona",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Netrokona (Bengali: নেত্রকোণা) is a district of the Mymensingh Division in northern Bangladesh.\r\n",
+                "division": "Mymensingh"
+            },
+            {
+                "name": "Sherpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Sherpur district (Bengali: শেরপুর জেলা, Sherpur Jela also Sherpur Zila) is a district in Northern Bangladesh. It is a part of Mymensingh Division. Sherpur district was a sub-division of Jamalpur District before 1984. It was upgraded to a district on February 22, 1984. Sherpur City is located about 197–199 kilometres (122–124 mi) north of Dhaka, capital of Bangladesh.\r\n",
+                "division": "Mymensingh"
+            }
+        ]
+    },
+    {
+        "name": "Rajshahi",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "Rajshahi Division (Bengali: রাজশাহী বিভাগ) is one of the eight first-level administrative divisions of Bangladesh. It has an area of 18,174.4 square kilometres (7,017.2 sq mi)[3] and a population at the 2011 Census of 18,484,858.[4] Rajshahi Division consists of 8 districts, 70 Upazilas (the next lower administrative tier) and 1,092 Unions (the lowest administrative tier).The region has historically been dominated by various feudal Rajas, Maharajas and Zamindars. Formerly comprising 16 districts, a new division (Rangpur Division) was formed with the 8 northern districts of the old Rajshahi Division from early 2010\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Bogra",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Bogra District, officially known as Bogura District,[2] is a district in the northern part of Bangladesh, in the Rajshahi Division.[3] Bogra is an industrial city where many small and mid-sized companies are sited. Bogra was a part of the ancient Pundravardhana territory and the ruins of its capital can be found in northern Bogra.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Joypurhat",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Joypurhat (Bengali: জয়পুরহাট জেলা, Bengali pronunciation: [ˈbangla] Joypurhat Jela, also Joypurhat Zila) is a district in the northern part of Bangladesh. It is one of the 8 districts of Rajshahi Division.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Naogaon",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Naogaon (Bengali: নওগাঁ, romanized: Nôugã) is a district in northern Bangladesh, part of the Rajshahi Division.[3] It is named after its headquarters, the city of Naogaon in Naogaon Sadar Upazila.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Natore",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Natore district is a district of Rajshahi Division located in northern Bangladesh.[3] It borders the metropolitan city of Rajshahi, and used to be part of Rajshahi district.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Chapai Nawabganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Chapainawabganj (Bengali: চাঁপাইনবাবগঞ্জ) is located in the north-western part of Bangladesh. It is a part of the Rajshahi Division, and was formerly a sub-division of Malda district. The north and west part of Chapai Nawabganj is bounded by Malda and Murshidabad districts of India, the east by Naogaon District, and south-east by Rajshahi District.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Pabna",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Pabna District (Bengali: পাবনা জেলা) is a district in central Bangladesh.[3] It is an economically important district in Bangladesh. Its administrative capital is the eponymous Pabna town.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Rajshahi",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Rajshahi District (Bengali: রাজশাহী জেলা) is a district in mid-western Bangladesh. It is a part of the Rajshahi Division.[3] The metropolitan city of Rajshahi is in Rajshahi District.\r\n",
+                "division": "Rajshahi"
+            },
+            {
+                "name": "Sirajganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Sirajganj District (Bengali: সিরাজগঞ্জ জেলা) is a district in the North Bengal region of Bangladesh, located in the Rajshahi Division.[3] It is an economically important district of Bangladesh. Sirajganj district is the 25th largest district by area and 9th largest district by population in Bangladesh. It is known as the gateway to North Bengal.In 1762, a severe earthquake changed the flow of the Jamuna river and created a new river named Baral. On the west bank of this Baral river, new land emerged and most of the land of surrounding it belonged to Zamindar Siraj Ali Chowdhury. So, after his name gradually this area got its recognition as Sirajganj. Currently it is famous for its hand-loom cottage industries and more than 50% people here are related with this business. In 1885, Sirajganj emerged as a thana. Formally under Mymensingh District in Dacca Division, it was transferred to Pabna District on 15 February 1866.[4] It was upgraded to become a subdivision of Pabna in 1885. In 1984, it was upgraded to a district. Its administrative capital is Sirajganj city.\r\n",
+                "division": "Rajshahi"
+            }
+        ]
+    },
+    {
+        "name": "Rangpur",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "Rangpur Division (Bengali: রংপুর বিভাগ) is one of the Divisions in Bangladesh. It was formed on 25 January 2010,[3] as Bangladesh's 7th division. Before that, it was under Rajshahi Division. The Rangpur division consists of eight districts. There are 58 Upazilas or subdistricts under these eight districts. Rangpur is the northernmost division of Bangladesh and has a population of 15,665,000 in the 2011 Census.The major cities of this new division are Rangpur, Saidpur and Dinajpur. Rangpur has well-known educational institutions, such as Carmichael College, Hajee Mohammad Danesh Science and Technology University, Rangpur Medical College, Rangpur Cadet College, Begum Rokeya University and Bangladesh Army University of Science and Technology, Saidpur.Mansingh, commander of Emperor Akbar, conquered part of Rangpur in 1575. Rangpur came completely under the Mughal empire in 1686. Mughalbasa and Mughalhat of Kurigram district still bear marks of the Mughal rule in the region. During the Mughal rule part of Rangpur was under the sarkar of Ghoraghat, and part under the sarkar of Pinjarah. Rangapur Ghoraghat has been mentioned in the Riyaz-us-Salatin. During the early period of the company rule Fakir-Sannyasi Rebellion and peasant rebellion were held in Rangpur\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Dinajpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Dinajpur district (Bengali: দিনাজপুর জেলা) is a district in the Rangpur Division of northern Bangladesh. Dinajpur is the largest district among all sixteen northern districts of Bangladesh.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Gaibandha",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Gaibandha (Bengali: গাইবান্ধা জেলা, Gaibandha Jela or Gaibandha Zila) is a district in Northern Bangladesh. It is a part of the Rangpur Division. Gaibandha subdivision was established in 1875. Gaibandha was previously known as Bhabanigonj. The name was changed from Bhabanigonj to Gaibandha in 1875. Gaibandha was established as a district on 15 February 1984.[1] Gaibandha is the administrative headquarter and largest urban centre of this district.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Kurigram",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Kurigram District (Bengali: কুড়িগ্রাম) is a district of Bangladesh in the Rangpur Division. The district is located in northern Bangladesh along the country's border with India.[3] Under Indian rule, the area was organized as a mahakuma and was not established as a district until 1984.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Lalmonirhat",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Lalmonirhat (Bengali: লালমনিরহাট জেলা, Lalmonirhat Jela also Lalmonirhat Zila) is a district, situated at the northern border of Bangladesh. It is a part of the Rangpur Division.[1] Lalmonirhat mahakuma was established as a district on 1 February 1984. It lies north of Kochbihar and Jalpaiguri of West Bengal, south of Ranpur, east of Kurigram and Kochbihar and west of Rangpur and Nilphamari district. The international border line of Lalmonirhat district is 281.6 km long.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Nilphamari",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Nilphamari (Bengali: নীলফামারী জেলা, Nilphamari Jela also Nilphamari Zila) is a district in Northern Bangladesh. It is a part of the Rangpur Division. It is about 400 kilometres to the northwest of the capital Dhaka. It has an area of 1,580.85 square kilometres (610.37 sq mi). Nilphamari is bounded by Rangpur and Lalmonirhat in east, Rangpur and Dinajpur in south, Dinajpur and Panchagarh in west, Cooch Behar of India in north.[3] There are many rivers in Nilphamari including the Tista, Buritista, Isamoti, Jamuneshwari, Dhum, Kumlai, Charalkata, Sorbomongola, Salki, Chikli, Chara and Deonai. There are four Municipal Corporation in Nilphamari district. Area of these Municipalities are Nilphamari 42.70 SqKm(27.50 SqKm Present, 15.20 SqKm Ongoing), Saidpur-34.42 SqKm, Jaldhaka-28.22 SqKm and Domar-9.421 SqKm. There are 60(sixty) Unions, 370 Moujas and 378 Village in Nilphamari district.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Panchagarh",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Panchagarh (Bengali pronunciation: [pɔntʃoɡɔɽ]; Bengali: পঞ্চগড়, Panchagaṛ 'five forts') is a district of the Rangpur division in Northern Bangladesh. Panchagarh is the northernmost district of Bangladesh. It lies between 26º00' and 26º38' north latitudes and between 88º19' and 88º49' east longitudes. It was established as a district on 1 February 1984.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Rangpur",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Rangpur (Bengali: রংপুর) is a district in Northern Bangladesh. It is a part of the Rangpur Division.\r\n",
+                "division": "Rangpur"
+            },
+            {
+                "name": "Thakurgaon",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Thakurgaon (Bengali: ঠাকুরগাঁও জেলা, Thakurgaon Jela also Thakurgaon Zila) is a district in the north-western side of Bangladesh. It is a part of the Rangpur Division and borders India to the west.[2] It was established as a mahakuma in 1860 consisting of 6 thanas named Thakurgaon sadar, Baliadangi, Pirganj, Ranishankail, Haripur and Ruhia. In 1947, it was re-established as a mahakuma including 3 thanas of Jalpaiguri and a thana of kochbihar of India. In 1981, Atoari was included in the new Panchagarh district and the area was shrunk in just 5 thanas. It was then established as a district on 1 February 1984.\r\n",
+                "division": "Rangpur"
+            }
+        ]
+    },
+    {
+        "name": "Sylhet",
+        "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        "about": "Sylhet Division (Bengali: সিলেট বিভাগ) is the northeastern division of Bangladesh. It is bordered by the Indian states of Meghalaya, Assam and Tripura to the north, east and south respectively, and by the Bangladeshi divisions of Chittagong to the southwest and Dhaka and Mymensingh to the west. Prior to 1947, it included the subdivision of Karimganj (presently in Barak Valley, India). However, Karimganj (including the thanas of Badarpur, Patharkandi and Ratabari) was inexplicably severed from Sylhet by the Radcliffe Boundary Commission. According to Niharranjan Ray, it was partly due to a plea from a delegation led by Abdul Matlib Mazumdar.\r\n",
+        "country": "Bangladesh",
+        "districts": [
+            {
+                "name": "Habiganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Habiganj (Bengali: হবিগঞ্জ, romanized: Hobigonj), formerly known as Habibganj (Bengali: হবিবগঞ্জ, romanized: Hobibgonj), is a district in north-eastern Bangladesh, located in the Sylhet Division. It was established as a district in 1984 as a successor to its subdivision status since 1867. It is named after its headquarters, the town of Habiganj.\r\n",
+                "division": "Sylhet"
+            },
+            {
+                "name": "Moulvibazar",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Moulvibazar (Bengali: মৌলভীবাজার) also spelled Maulvibazar,[1] Moulavibazar,[2] and Maulavibazar,[3] (former South Sylhet) is the southeastern district of Sylhet Division (Greater Sylhet) in northeastern Bangladesh, named after the town of Moulvibazar. It is bordered by the Indian states of Tripura and Assam to the south and east, respectively; and by the Bangladeshi districts of Habiganj to the west and Sylhet to the north.\r\n",
+                "division": "Sylhet"
+            },
+            {
+                "name": "Sunamganj",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Sunamganj (Bengali: সুনামগঞ্জ) is a district located in north-eastern Bangladesh within the Sylhet Division.\r\n",
+                "division": "Sylhet"
+            },
+            {
+                "name": "Sylhet",
+                "image": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+                "about": "Sylhet (Bengali: সিলেট), located in north-east Bangladesh, is the divisional capital and one of the four districts in the Sylhet Division.\r\n",
+                "division": "Sylhet"
+            }
+        ]
+    }
+]

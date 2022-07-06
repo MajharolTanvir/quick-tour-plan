@@ -4,15 +4,15 @@ const Steps = () => {
     return (
         <section className='my-10'>
             <div>
-                <div className='text-3xl text-center font-bold text-gray-300'>Steps</div>
+                <div className='text-3xl text-center font-bold text-teal-400'>Steps</div>
                 <div className='flex justify-center'>
-                    <div className='w-8 h-1 bg-slate-300 rounded-lg mr-1'></div>
-                    <div className='w-6 h-1 bg-slate-300 rounded-lg mr-1'></div>
-                    <div className='w-4 h-1 bg-slate-300 rounded-lg mr-1'></div>
+                    <div className='w-8 h-1 bg-teal-400 rounded-lg mr-1'></div>
+                    <div className='w-6 h-1 bg-teal-400 rounded-lg mr-1'></div>
+                    <div className='w-4 h-1 bg-teal-400 rounded-lg mr-1'></div>
                 </div>
             </div>
-            <div className="text-gray-100 body-font">
-                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+            <div className="text-gray-100">
+                <div className="container px-5 mt-10 mb-20 mx-auto flex flex-wrap">
                     <div className="flex flex-wrap w-full">
                         <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
                             <div className="flex relative pb-12">

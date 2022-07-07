@@ -15,7 +15,7 @@ const Home = () => {
                         </h1>
                         <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
                         <div className="flex justify-center">
-                            <button className="inline-flex text-black bg-teal-400 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700 rounded text-lg">Button</button>
+                            <button className="inline-flex text-gray-900 hover:text-gray-100 bg-teal-400 border-0 py-2 px-6 focus:outline-none hover:bg-teal-700  rounded text-lg">Button</button>
                             <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
                         </div>
                     </div>
@@ -25,8 +25,8 @@ const Home = () => {
                 </div>
             </div>
             <Spots></Spots>
-            <Static></Static>
             <Steps></Steps>
+            <Static></Static>
             <Testimonial></Testimonial>
         </section>
     );

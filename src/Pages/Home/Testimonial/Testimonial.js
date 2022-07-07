@@ -24,8 +24,8 @@ const Testimonial = () => {
                                 <Link className="inline-flex items-center" to=''>
                                     <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                     <span className="flex-grow flex flex-col pl-4">
-                                        <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
-                                        <span className="text-gray-500 text-sm">UI DEVELOPER</span>
+                                        <span className="title-font font-medium text-gray-100">Holden Caulfield</span>
+                                        <span className="text-gray-100 text-sm">UI DEVELOPER</span>
                                     </span>
                                 </Link>
                             </div>
@@ -39,8 +39,8 @@ const Testimonial = () => {
                                 <Link to='' className="inline-flex items-center">
                                     <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
                                     <span className="flex-grow flex flex-col pl-4">
-                                        <span className="title-font font-medium text-gray-900">Alper Kamu</span>
-                                        <span className="text-gray-500 text-sm">DESIGNER</span>
+                                        <span className="title-font font-medium text-gray-100">Alper Kamu</span>
+                                        <span className="text-gray-100 text-sm">DESIGNER</span>
                                     </span>
                                 </Link>
                             </div>

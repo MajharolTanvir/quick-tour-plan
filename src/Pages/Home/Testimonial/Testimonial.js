@@ -5,11 +5,11 @@ const Testimonial = () => {
     return (
         <section>
             <div>
-                <div className='text-3xl text-center font-bold text-teal-400'>Testimonial</div>
+                <div className='text-3xl text-center font-bold text-teal-400'>TESTIMONIAL</div>
                 <div className='flex justify-center'>
+                    <div className='w-20 h-1 bg-teal-400 rounded-lg mr-1'></div>
                     <div className='w-16 h-1 bg-teal-400 rounded-lg mr-1'></div>
                     <div className='w-12 h-1 bg-teal-400 rounded-lg mr-1'></div>
-                    <div className='w-10 h-1 bg-teal-400 rounded-lg mr-1'></div>
                 </div>
             </div>
             <div className="text-gray-100 body-font">

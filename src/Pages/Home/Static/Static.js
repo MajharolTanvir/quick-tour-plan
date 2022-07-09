@@ -4,11 +4,11 @@ const Static = () => {
     return (
         <section className='my-10'>
             <div>
-                <div className='text-3xl text-center font-bold text-teal-400'>Static</div>
+                <div className='text-3xl text-center font-bold text-teal-400'>STATIC</div>
                 <div className='flex justify-center'>
+                    <div className='w-10 h-1 bg-teal-400 rounded-lg mr-1'></div>
                     <div className='w-8 h-1 bg-teal-400 rounded-lg mr-1'></div>
-                    <div className='w-6 h-1 bg-teal-400 rounded-lg mr-1'></div>
-                    <div className='w-4 h-1 bg-teal-400 rounded-lg mr-1'></div>
+                    <div className='w-5 h-1 bg-teal-400 rounded-lg mr-1'></div>
                 </div>
             </div>
             <div className="text-gray-100 body-font">

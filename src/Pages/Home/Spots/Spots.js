@@ -19,10 +19,10 @@ const Spots = () => {
     return (
         <div className='container mx-auto my-10'>
             <div>
-                <div className='text-3xl text-center font-bold text-teal-400'>Spots</div>
+                <div className='text-3xl text-center font-bold text-teal-400'>SPOTS</div>
                 <div className='flex justify-center'>
-                    <div className='w-8 h-1 bg-teal-400 rounded-lg mr-1'></div>
-                    <div className='w-6 h-1 bg-teal-400 rounded-lg mr-1'></div>
+                    <div className='w-10 h-1 bg-teal-400 rounded-lg mr-1'></div>
+                    <div className='w-7 h-1 bg-teal-400 rounded-lg mr-1'></div>
                     <div className='w-4 h-1 bg-teal-400 rounded-lg mr-1'></div>
                 </div>
             </div>

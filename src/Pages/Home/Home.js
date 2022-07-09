@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact/Contact';
 import Spots from './Spots/Spots';
 import Static from './Static/Static';
 import Steps from './Steps/Steps';
@@ -24,10 +25,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Static></Static>
             <Spots></Spots>
             <Steps></Steps>
-            <Static></Static>
             <Testimonial></Testimonial>
+            <Contact></Contact>
         </section>
     );
 };

@@ -1,14 +1,38 @@
 import React from "react";
+import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import auth from "../../../init.Firebase";
+import Loading from "../../../Shared/Loading/Loading";
 import LoginBg from '../../../Utilities/Image/animation_500_l5dlhmtt.gif'
 
 const Login = () => {
+    const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
+
+    const navigate = useNavigate()
+    const location = useLocation()
+    const from = location.state?.from?.pathname || "/";
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
+        signInWithEmailAndPassword(data.Email, data.Password)
+
     };
+
+    if (loading) {
+        return <Loading></Loading>
+    }
+
+    if (error) {
+        toast.error(error.message)
+    }
+
+    if (user) {
+        toast.success('Login successful')
+        navigate(from, { replace: true })
+    }
 
     return (
         <div className='grid grid-cols-1 gap-3 md:grid-cols-2 container mx-auto items-center justify-center'>
@@ -18,7 +42,7 @@ const Login = () => {
             <div className="py-5 md:py-0 px-5 md:px-0">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <h4 className="text-center text-3xl font-bold my-4 text-gray-100">Login</h4>
-                    <div className="form-control w-full">
+                    <div className=" w-full">
                         <label className="label">
                             <span className="label-text text-lg font-medium font-sans">Email</span>
                         </label>
@@ -37,7 +61,7 @@ const Login = () => {
                         {errors.Email?.type === 'required' && <span className="label-text-alt text-red-500">{errors.Email.message}</span>}
                         {errors.Email?.type === 'pattern' && <span className="label-text-alt text-red-500">{errors.Email.message}</span>}
                     </label>
-                    <div className="form-control w-full">
+                    <div className="w-full">
                         <label className="label">
                             <span className="label-text text-lg font-medium font-sans">Password</span>
                         </label>

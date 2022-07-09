@@ -10,6 +10,8 @@ import Service from './Pages/Service/Service';
 import Login from './Pages/LoginPart/Login/Login';
 import Registration from './Pages/LoginPart/Registration/Registration ';
 import ForgetPass from './Pages/LoginPart/ForgetPass/ForgetPass';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

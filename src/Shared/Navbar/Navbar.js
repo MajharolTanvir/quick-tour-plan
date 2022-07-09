@@ -1,8 +1,15 @@
 import React from 'react';
 import CustomLink from '../../Hooks/CustomLink';
-// import { Link } from "react-router-dom";\
+import auth from '../../init.Firebase'
+import { useAuthState } from 'react-firebase-hooks/auth';
+import Loading from '../../Shared/Loading/Loading'
 
 const Navbar = () => {
+    const [user, loading] = useAuthState(auth);
+
+    if (loading) {
+        return <Loading></Loading>
+    }
     return (
         <nav className="navbar bg-gray-700 shadow-sm shadow-slate-900">
             <div className="navbar-start">
@@ -15,7 +22,7 @@ const Navbar = () => {
                         <CustomLink to='/plan' className="mr-5 hover:text-gray-900 px-2">Plan</CustomLink>
                         <CustomLink to='/blogs' className="mr-5 hover:text-gray-900 px-2">Blogs</CustomLink>
                         <CustomLink to='/service' className="mr-5 hover:text-gray-900 px-2">Service</CustomLink>
-                        <CustomLink to='/login' className="mr-5 hover:text-gray-900 px-2">Login</CustomLink>
+                        {user ? <button>Sign out</button> : <CustomLink to='/login' className="mr-5 hover:text-gray-900 px-2">Login</CustomLink>}
                     </div>
                 </div>
                 <CustomLink to='/' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -28,7 +35,7 @@ const Navbar = () => {
                     <CustomLink to='/plan' className="mr-5 hover:text-gray-900 px-2">Plan</CustomLink>
                     <CustomLink to='/blogs' className="mr-5 hover:text-gray-900 px-2">Blogs</CustomLink>
                     <CustomLink to='/service' className="mr-5 hover:text-gray-900 px-2">Service</CustomLink>
-                    <CustomLink to='/login' className="mr-5 hover:text-gray-900 px-2">Login</CustomLink>
+                    {user ? <button>Sign out</button> : <CustomLink to='/login' className="mr-5 hover:text-gray-900 px-2">Login</CustomLink>}
                 </div>
             </div>
             <div className="navbar-end">

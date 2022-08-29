@@ -1,16 +1,14 @@
-import React from 'react';
+import React from "react";
+import "./Loading.css";
 
 const Loading = () => {
-    return (
-        <div>
-            TML
-            <div className="flex justify-center items-center space-x-2">
-                <div className="spinner-grow inline-block w-8 h-8 bg-current rounded-full opacity-0 text-teal-400" role="status">
-                    <span className="visually-hidden">Loading...</span>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div className="loader">
+      <div className="outer"></div>
+      <div className="middle"></div>
+      <div className="inner"></div>
+    </div>
+  );
 };
 
 export default Loading;

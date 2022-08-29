@@ -1,83 +1,207 @@
-import React from 'react';
-import CustomLink from '../../Hooks/CustomLink';
-import auth from '../../init.Firebase'
-import { useAuthState } from 'react-firebase-hooks/auth';
-import Loading from '../../Shared/Loading/Loading'
+import React, { useState } from "react";
+import { Transition } from "@headlessui/react";
+import logo from "../../Utilities/Logo/logo.png";
+import CustomLink from "../../Hooks/CustomLink";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedin,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../init.Firebase";
+import Loading from "../Loading/Loading";
 
 const Navbar = () => {
-    const [user, loading] = useAuthState(auth);
+  const [isOpen, setIsOpen] = useState(false);
+  const [user, loading] = useAuthState(auth);
 
-    if (loading) {
-        return <Loading></Loading>
-    }
-    return (
-        <nav className="navbar bg-gray-700 shadow-sm shadow-slate-900">
-            <div className="navbar-start">
-                <div className="dropdown">
-                    <label tabIndex="0" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <div tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <CustomLink to='/' className="mr-5 hover:text-gray-900 px-2">Home</CustomLink>
-                        <CustomLink to='/plan' className="mr-5 hover:text-gray-900 px-2">Plan</CustomLink>
-                        <CustomLink to='/blogs' className="mr-5 hover:text-gray-900 px-2">Blogs</CustomLink>
-                        <CustomLink to='/service' className="mr-5 hover:text-gray-900 px-2">Service</CustomLink>
-                        {user ? <button>Sign out</button> : <CustomLink to='/login' className="mr-5 hover:text-gray-900 px-2">Login</CustomLink>}
-                    </div>
-                </div>
-                <CustomLink to='/' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                    <span className="no-underline text md:text-3xl font-bold">Quick Tour Plan</span>
+  if (loading) {
+    return <Loading />;
+  }
+  return (
+    <nav className="bg-gray-100 shadow-md ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* <div className="flex items-center justify-start"> */}
+          <div className="flex items-center justify-start">
+            <div className="flex justify-center items-center gap-3">
+              <img className="h-8 w-8" src={logo} alt="Workflow" />
+              <h5 className="text-xl lg:text-2xl text-primary font-bold">
+                Quick Tour Plan
+              </h5>
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <div className="flex justify-between items-center">
+              <CustomLink
+                to="/"
+                className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Home
+              </CustomLink>
+
+              <CustomLink
+                to="/blog"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Blog
+              </CustomLink>
+
+              <CustomLink
+                to="/plan"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Plan
+              </CustomLink>
+
+              <CustomLink
+                to="/service"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Service
+              </CustomLink>
+
+              {user ? (
+                <button>Logout</button>
+              ) : (
+                <CustomLink
+                  to="/login"
+                  href="#"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Login
                 </CustomLink>
+              )}
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <div className="menu menu-horizontal p-0">
-                    <CustomLink to='/' className="mr-5 hover:text-gray-900 px-2">Home</CustomLink>
-                    <CustomLink to='/plan' className="mr-5 hover:text-gray-900 px-2">Plan</CustomLink>
-                    <CustomLink to='/blogs' className="mr-5 hover:text-gray-900 px-2">Blogs</CustomLink>
-                    <CustomLink to='/service' className="mr-5 hover:text-gray-900 px-2">Service</CustomLink>
-                    {user ? <button>Sign out</button> : <CustomLink to='/login' className="mr-5 hover:text-gray-900 px-2">Login</CustomLink>}
-                </div>
+          </div>
+          <div className="hidden md:block">
+            <div className="flex justify-center items-center gap-10">
+              <FaFacebookSquare className="text-xl text-blue-600 lg:text-3xl" />
+              <FaInstagramSquare className="text-xl text-red-600 lg:text-3xl" />
+              <FaLinkedin className="text-xl text-blue-600 lg:text-3xl" />
             </div>
-            <div className="navbar-end">
-                <div className="flex-none">
-                    <div className="dropdown dropdown-end">
-                        <label tabIndex="0" className="btn btn-ghost btn-circle">
-                            <div className="indicator">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-                                <span className="badge badge-sm indicator-item">8</span>
-                            </div>
-                        </label>
-                        <div tabIndex="0" className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
-                            <div className="card-body">
-                                <span className="font-bold text-lg">8 Items</span>
-                                <span className="text-info">Subtotal: $999</span>
-                                <div className="card-actions">
-                                    <button className="btn btn-primary btn-block">View cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="dropdown dropdown-end">
-                        <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
-                                <img src="https://placeimg.com/80/80/people" alt='' />
-                            </div>
-                        </label>
-                        <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li>
-                                <a href='/' className="justify-between">
-                                    Profile
-                                    <span className="badge">New</span>
-                                </a>
-                            </li>
-                            <li><a href='/' >Settings</a></li>
-                            <li><a href='/' >Logout</a></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          {/* </div> */}
+          <div className="-mr-2 flex md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              type="button"
+              className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              aria-controls="mobile-menu"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Open main menu</span>
+              {!isOpen ? (
+                <svg
+                  className="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  className="block h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              )}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <Transition
+        show={isOpen}
+        enter="transition ease-out duration-100 transform"
+        enterFrom="opacity-0 scale-95"
+        enterTo="opacity-100 scale-100"
+        leave="transition ease-in duration-75 transform"
+        leaveFrom="opacity-100 scale-100"
+        leaveTo="opacity-0 scale-95"
+      >
+        {(ref) => (
+          <div className="md:hidden" id="mobile-menu">
+            <div ref={ref} className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
+              <CustomLink
+                to="/"
+                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Home
+              </CustomLink>
+
+              <CustomLink
+                to="/blog"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Blog
+              </CustomLink>
+
+              <CustomLink
+                to="/plan"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Plan
+              </CustomLink>
+
+              <CustomLink
+                to="/service"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Service
+              </CustomLink>
+
+              <CustomLink
+                to="/login"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Login
+              </CustomLink>
+              <div className="flex justify-around py-5">
+                <Link
+                  to="/login"
+                  className="block px-3 py-1 text-blue-600 rounded-md text-base font-medium"
+                >
+                  <FaFacebookSquare className="text-xl lg:text-3xl" />
+                </Link>
+                <Link
+                  to="/login"
+                  className="block px-3 py-1 text-red-600 rounded-md text-base font-medium"
+                >
+                  <FaInstagramSquare className="text-xl lg:text-3xl" />
+                </Link>
+                <Link
+                  to="/login"
+                  className="block px-3 py-1 rounded-md text-blue-600 text-base font-medium"
+                >
+                  <FaLinkedin className="text-xl lg:text-3xl" />
+                </Link>
+              </div>
             </div>
-        </nav>
-    );
+          </div>
+        )}
+      </Transition>
+    </nav>
+  );
 };
 
 export default Navbar;

@@ -7,23 +7,33 @@ import {
   FaInstagramSquare,
   FaLinkedin,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../init.Firebase";
 import Loading from "../Loading/Loading";
+import { signOut } from "firebase/auth";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  // const location = useLocation();
+  const from = "/";
   const [isOpen, setIsOpen] = useState(false);
   const [user, loading] = useAuthState(auth);
 
   if (loading) {
     return <Loading />;
   }
+
+  const handleSignOut = () => {
+    signOut(auth);
+    toast("Logout successful");
+    navigate(from, { replace: true });
+  };
   return (
     <nav className="bg-gray-100 shadow-md ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* <div className="flex items-center justify-start"> */}
           <div className="flex items-center justify-start">
             <div className="flex justify-center items-center gap-3">
               <img className="h-8 w-8" src={logo} alt="Workflow" />
@@ -33,38 +43,55 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <div className="flex justify-between items-center">
-              <CustomLink
-                to="/"
-                className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Home
-              </CustomLink>
+            {user ? (
+              <div className="flex justify-between items-center">
+                <CustomLink
+                  to="/plan"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Plan
+                </CustomLink>
 
-              <CustomLink
-                to="/blog"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Blog
-              </CustomLink>
+                <CustomLink
+                  to="/service"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Service
+                </CustomLink>
 
-              <CustomLink
-                to="/plan"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Plan
-              </CustomLink>
+                <CustomLink
+                  to="/dashboard"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Dashboard
+                </CustomLink>
 
-              <CustomLink
-                to="/service"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Service
-              </CustomLink>
+                <button onClick={() => handleSignOut()} className="px-3 py-2">
+                  Logout
+                </button>
+              </div>
+            ) : (
+              <div className="flex justify-between items-center">
+                <CustomLink
+                  to="/"
+                  className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Home
+                </CustomLink>
 
-              {user ? (
-                <button>Logout</button>
-              ) : (
+                <CustomLink
+                  to="/blog"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Blog
+                </CustomLink>
+
+                <CustomLink
+                  to="/places"
+                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Places
+                </CustomLink>
                 <CustomLink
                   to="/login"
                   href="#"
@@ -72,8 +99,8 @@ const Navbar = () => {
                 >
                   Login
                 </CustomLink>
-              )}
-            </div>
+              </div>
+            )}
           </div>
           <div className="hidden md:block">
             <div className="flex justify-center items-center gap-10">

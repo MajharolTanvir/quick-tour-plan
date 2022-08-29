@@ -2,21 +2,36 @@ import React from "react";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
 import auth from "../../init.Firebase";
+import { useLocation, useNavigate } from "react-router-dom";
+
 import {
   useSignInWithGoogle,
   useSignInWithFacebook,
 } from "react-firebase-hooks/auth";
 import Loading from "../Loading/Loading";
+import { toast } from "react-toastify";
+import { useEffect } from "react";
 
 const SocialConnection = () => {
   const [signInWithGoogle, googleUser, googleLoading, googleError] =
     useSignInWithGoogle(auth);
   const [signInWithFacebook, facebookUser, facebookLoading, facebookError] =
     useSignInWithFacebook(auth);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/plan";
+
+  useEffect(() => {
+    if (googleUser || facebookUser) {
+      toast.success("Login successful");
+      navigate(from, { replace: true });
+    }
+  }, [facebookUser, from, googleUser, navigate]);
 
   if (googleLoading || facebookLoading) {
     return <Loading />;
   }
+
   return (
     <div className="my-5">
       <h3 className="text-lg font-medium font-sans my-2">

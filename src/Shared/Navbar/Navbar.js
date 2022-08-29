@@ -31,7 +31,7 @@ const Navbar = () => {
     navigate(from, { replace: true });
   };
   return (
-    <nav className="bg-gray-100 shadow-md ">
+    <nav className="bg-gray-100 shadow-md  sticky z-20 top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center justify-start">
